@@ -1,12 +1,12 @@
 # natural_language_generation
 
-Natural Language Generation using deep learning models
+Natural Language Generation using deep learning model
 
 ### ALGORITHM PRESENTATION ###
 
 Meaning Representation to Natural Language algorithm. We choose to implement a seq2seq model. It works as a encoder, decoder on either a character level or word level. In order to improve learning of the model we computed a lexicalization work applied beforehand to the dataset.
 
-Our best model is already trained and saved (weights in 'saved_models/64_100_40k.h5', with its prediction in results/64_100_40k_results).
+The model is already trained and saved (weights in 'saved_models/64_100_40k.h5', with its prediction in results/64_100_40k_results).
 The model works on a character level.
 The predictions are quite impressive and the seq2seq manages to understand perfectly the logical relation between the sentence Meaning Representation and the Natural Language.
 
